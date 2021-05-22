@@ -1,4 +1,60 @@
+body{
+  background-image: url('./picture/瞳.png');
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+
+
 table{
   border: 2px solid black;
+  border-collapse: collapse;
   margin: 0px auto;
+  width: 60vw;
+  background-color:rgba(255, 235, 244, 0.3);
+}
+
+td{
+  padding: 4px;
+  text-align: center;
+  border-right: 1px solid black;
+  color: white;
+}
+
+th{
+  padding: 2px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  color: white;
+}
+
+th:nth-child(1){
+   width: 45%;
+   background-color: rgba(255, 168, 212, 0.5);
+}
+th:nth-child(2){
+   width: 35%;
+   background-color: rgba(255, 194, 224, 0.5);
+}
+th:nth-child(3){
+   width: 20%;
+   background-color: rgba(255, 219, 237, 0.5);
+}
+
+a {
+  color: #BBFFFF;
+  text-decoration: none;
+}
+
+a:active{
+  color:yellow
+}
+
+a:visited{
+  color: blue;
+}
+
+h1{
+  color: #F7BFFF;
+  text-align:center;
 }
