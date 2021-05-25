@@ -46,12 +46,12 @@ a {
   text-decoration: none;
 }
 
-a:active{
-  color:yellow
-}
-
 a:visited{
   color: #BBFFFF;
+}
+
+a:active{
+  color:yellow
 }
 
 h1{
